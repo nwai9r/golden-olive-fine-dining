@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden Olive Fine Dining</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f2eb;
+color:#222;
+line-height:1.6;
+}
+
+nav{
+background:#1f3b2d;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:gold;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+header h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+header p{
+font-size:22px;
+}
+
+section{
+padding:50px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+margin-bottom:30px;
+color:#1f3b2d;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.menu-item{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.menu-item img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.menu-content{
+padding:20px;
+}
+
+.price{
+color:#1f3b2d;
+font-size:22px;
+font-weight:bold;
+margin:10px 0;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+table th,
+table td{
+border:1px solid #ccc;
+padding:12px;
+text-align:left;
+}
+
+table th{
+background:#1f3b2d;
+color:white;
+}
+
+footer{
+background:#1f3b2d;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#drinks">Drinks</a>
+<a href="#planning">Graphic Organizer</a>
+<a href="#economics">Economics</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+<h1>Golden Olive Fine Dining</h1>
+<p>Luxury Taste at Everyday Prices</p>
+</header>
+
+<section>
+<h2 class="section-title">About Us</h2>
+
+<div class="card">
+<p>
+At Golden Olive Fine Dining we believe everyone deserves a luxury dining experience.
+Our restaurant combines locally sourced UAE produce with carefully selected premium ingredients
+from around the world. By using affordable local tomatoes and cucumbers we keep our prices
+reasonable while maintaining exceptional quality and profitability.
+
+Our mission is to offer fine dining that is accessible to families students and professionals
+throughout the UAE.
+</p>
+</div>
+</section>
+
+<section id="menu">
+<h2 class="section-title">Restaurant Menu</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+<div class="menu-content">
+<h3>Royal Tomato Burrata</h3>
+<div class="price">AED 29</div>
+<p>
+Fresh UAE tomatoes paired with creamy Italian burrata cheese basil leaves and extra virgin olive oil.
+Prepared fresh daily to create a refreshing starter packed with flavor.
+</p>
+</div>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd">
+<div class="menu-content">
+<h3>Garden Cucumber Salmon Salad</h3>
+<div class="price">AED 35</div>
+<p>
+Locally grown cucumbers mixed greens premium Norwegian salmon and a house made lemon herb dressing.
+A healthy meal that balances freshness nutrition and taste.
+</p>
+</div>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1600891964092-4316c288032e">
+<div class="menu-content">
+<h3>Truffle Chicken Supreme</h3>
+<div class="price">AED 42</div>
+<p>
+Tender chicken breast marinated for 24 hours then grilled and served with mashed potatoes
+and rich black truffle cream sauce.
+</p>
+</div>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+<div class="menu-content">
+<h3>Chef's Signature Wagyu Slider</h3>
+<div class="price">AED 49</div>
+<p>
+Premium Wagyu beef blended with high quality local beef to balance luxury and affordability.
+Topped with Scottish cheddar cheese caramelized onions and our signature sauce.
+</p>
+</div>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9">
+<div class="menu-content">
+<h3>Saffron Sunset Pasta</h3>
+<div class="price">AED 38</div>
+<p>
+Fresh pasta tossed in a creamy saffron sauce with imported Italian parmesan cheese
+and fresh herbs.
+</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="drinks">
+<h2 class="section-title">Drinks Menu</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<div class="menu-content">
+<h3>Golden Citrus Sparkler</h3>
+<div class="price">AED 12</div>
+<p>Fresh lemon juice sparkling water mint leaves and honey.</p>
+</div>
+</div>
+
+<div class="menu-item">
+<div class="menu-content">
+<h3>Cucumber Mint Cooler</h3>
+<div class="price">AED 14</div>
+<p>Fresh UAE cucumbers mint leaves lime juice and sparkling water.</p>
+</div>
+</div>
+
+<div class="menu-item">
+<div class="menu-content">
+<h3>Mediterranean Sunset Mocktail</h3>
+<div class="price">AED 18</div>
+<p>Orange juice pomegranate juice mint and soda water.</p>
+</div>
+</div>
+
+<div class="menu-item">
+<div class="menu-content">
+<h3>Berry Blossom Iced Tea</h3>
+<div class="price">AED 16</div>
+<p>Premium black tea strawberries blueberries and lemon.</p>
+</div>
+</div>
+
+<div class="menu-item">
+<div class="menu-content">
+<h3>Golden Olive Signature Coffee</h3>
+<div class="price">AED 15</div>
+<p>Freshly brewed premium coffee with chocolate garnish.</p>
+</div>
+</div>
+
+<div class="menu-item">
+<div class="menu-content">
+<h3>Saffron Rose Latte</h3>
+<div class="price">AED 18</div>
+<p>Creamy latte infused with saffron and rose flavors.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="planning">
+<h2 class="section-title">Graphic Organizer</h2>
+
+<table>
+<tr>
+<th>Dish Name</th>
+<th>Ingredients</th>
+<th>Price</th>
+<th>Why Chosen</th>
+<th>Target Customer</th>
+</tr>
+
+<tr>
+<td>Royal Tomato Burrata</td>
+<td>Tomatoes Burrata Basil Olive Oil</td>
+<td>AED 29</td>
+<td>Uses affordable local tomatoes</td>
+<td>Health conscious diners</td>
+</tr>
+
+<tr>
+<td>Garden Cucumber Salmon Salad</td>
+<td>Cucumber Salmon Greens Lemon Dressing</td>
+<td>AED 35</td>
+<td>Uses affordable local cucumbers</td>
+<td>Healthy lifestyle customers</td>
+</tr>
+
+<tr>
+<td>Truffle Chicken Supreme</td>
+<td>Chicken Potato Truffle Sauce</td>
+<td>AED 42</td>
+<td>Affordable luxury option</td>
+<td>Families and professionals</td>
+</tr>
+
+<tr>
+<td>Chef's Signature Wagyu Slider</td>
+<td>Wagyu Local Beef Scottish Cheddar</td>
+<td>AED 49</td>
+<td>Premium menu option while controlling costs</td>
+<td>Fine dining customers</td>
+</tr>
+
+<tr>
+<td>Saffron Sunset Pasta</td>
+<td>Pasta Saffron Parmesan Herbs</td>
+<td>AED 38</td>
+<td>Luxury flavor with controlled costs</td>
+<td>Students and young adults</td>
+</tr>
+
+</table>
+</section>
+
+<section id="economics">
+<h2 class="section-title">Economics Analysis</h2>
+
+<div class="card">
+<h3>Natural Resources</h3>
+<p>
+Tomatoes cucumbers herbs chicken beef salmon and other ingredients used to prepare meals.
+</p>
+
+<br>
+
+<h3>Human Resources</h3>
+<p>
+Chefs servers managers cashiers and kitchen staff who prepare and serve food.
+</p>
+
+<br>
+
+<h3>Capital Resources</h3>
+<p>
+Kitchen equipment ovens refrigerators tables chairs computers and the restaurant building.
+</p>
+
+<br>
+
+<h3>Scarcity Tradeoffs and Opportunity Cost</h3>
+<p>
+Due to higher transportation costs imported ingredients have become more expensive.
+Golden Olive Fine Dining uses locally available tomatoes and cucumbers because they are abundant
+in the UAE and cost less than many imported products.
+
+This helps the restaurant keep prices affordable while maintaining profitability.
+
+If the restaurant used expensive imported ingredients in every dish prices would need to increase.
+Using local produce allows the restaurant to attract more customers while controlling costs.
+</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<div class="card">
+<p>Email: info@goldenolive.ae</p>
+<p>Phone: +971 50 123 4567</p>
+<p>Location: Dubai UAE</p>
+</div>
+</section>
+
+<footer>
+Golden Olive Fine Dining © 2026 | Economics Final Project
+</footer>
+
+</body>
+</html>
